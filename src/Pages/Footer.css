@@ -1,0 +1,34 @@
+
+
+.maindiv{
+    display: grid ;
+    grid-template-columns: auto auto auto auto;
+    justify-content: space-evenly;
+
+    
+    width: 100%;
+    height: 350px;
+}
+.section{
+    background-color: black;
+}
+.Foot{
+    font-size: 22px;
+    font-weight: bold;
+}
+.Foot1 div{
+   margin: 15px;
+   color: white;
+   padding-top: 8px;
+}
+.Foot2{
+    margin-top: 20px;
+}
+.Foot1 a{
+    text-decoration: none;
+    color: white;
+}
+.Foot1 a:hover{
+    color: blue;
+    transition: 0.5;
+}
